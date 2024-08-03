@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "thanushinfra" {
 	ami = "ami-0ba9883b710b05ac6" 
-	instance_type = "t2.micro"
+	instance_type = "t2.nano"
 }
